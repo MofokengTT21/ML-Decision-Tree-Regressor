@@ -7599,7 +7599,16 @@ all of MD as it is not optimized for dense, information rich UIs.
         overflow: auto;
         display: flex;
       }
-
+      img.responsive {
+            width: 30em;
+            max-width: 100%; 
+        }
+        /* Media query for small screens */
+        @media (max-width: 600px) {
+            img.responsive {
+                width: 100%;
+            }
+      }
       .jp-RenderedMermaid.jp-mod-warning {
         width: auto;
         padding: 0.5em;
@@ -7658,7 +7667,7 @@ all of MD as it is not optimized for dense, information rich UIs.
               class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput"
               data-mime-type="text/markdown"
             >
-              <h2
+              <h1
                 id="Decision-Tree-Regression-for-Predicting-Meadian-Value-of-Owner-occupied-Homes."
               >
                 Decision Tree Regression for Predicting Median Value of
@@ -7667,7 +7676,8 @@ all of MD as it is not optimized for dense, information rich UIs.
                   href="#Decision-Tree-Regression-for-Predicting-Meadian-Value-of-Owner-occupied-Homes."
                   >¶</a
                 >
-              </h2>
+              </h1>
+              <img src="steps.png" class="responsive">
               <h3 id="Overview:">
                 Overview:<a class="anchor-link" href="#Overview:">¶</a>
               </h3>
