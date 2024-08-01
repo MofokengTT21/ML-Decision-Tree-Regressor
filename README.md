@@ -1,5 +1,5 @@
 ## Decision Tree Regression for Predicting Median Value of Owner-occupied Homes.
-[View](https://mofokengtt21.github.io/ML-Decision-Tree-Regressor/)
+[View](https://mofokengtt21.github.io/ml-decision-tree-regressor/)
 ### Overview:
 This project explores the application of decision tree regression to predict **median value** of owner-occupied homes. Decision trees are powerful non-parametric models that are capable of capturing complex relationships in the data, making them suitable for regression tasks.
 
